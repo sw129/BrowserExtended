@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Мое расширение popup",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/icon16.ico",
+      "48": "images/icon48.ico",
+      "128": "images/icon128.ico"
+    }
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "images/icon16.ico",
+    "48": "images/icon48.ico",
+    "128": "images/icon128.ico"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

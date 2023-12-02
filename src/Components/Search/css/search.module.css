@@ -1,0 +1,37 @@
+.inputField {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5%;
+    grid-area: inputField;
+}
+
+.searchImg {
+    grid-area: searchImg;
+}
+
+.bingButton {
+    border-radius: 5%;
+    background-color: transparent;
+    color: white;
+    grid-area: bingButton;
+}
+
+.searchButton {
+    border-radius: 5%;
+    background-color: transparent;
+    color: white;
+}
+
+.selectField {
+    margin: 10px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Создает колонки */
+    grid-template-rows: auto auto; /* Создает строки */
+    grid-template-areas:
+        "searchImg inputField searchButton bingButton dropdownContainer";
+    gap: 3px;
+}
